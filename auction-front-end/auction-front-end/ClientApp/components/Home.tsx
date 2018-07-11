@@ -1,11 +1,16 @@
 import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
+const imageSrc = require('../images/logo.svg')
 
 export class Home extends React.Component<RouteComponentProps<{}>, {}> {
     public render() {
         return <div>
-            <h1>Welcome John</h1>
-            <p>This site will allow you to  and past and future auctions.</p>
+        <header >
+                <img alt="logo" src={'../dist/images/logo.svg'} height="150" width="150" />
+                <h2>Welcome to Brune Christensen</h2>
+        </header>
+            
+            <p>This site will allow you to:</p>
             <ul>
                 <li>Place bids in our online auctions</li>
                 <li>View upcoming auctions and bidding history of past auctions</li>
@@ -13,4 +18,5 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
             
         </div>;
     }
+
 }
