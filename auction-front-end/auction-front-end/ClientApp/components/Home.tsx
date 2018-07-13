@@ -7,7 +7,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
         return <div>
         <header >
                 <img alt="logo" src={'../dist/images/logo.svg'} height="150" width="150" />
-                <h2>Welcome to Brune Christensen</h2>
+                <h2>Welcome to Brune Christensen Auctions</h2>
         </header>
             
             <p>This site will allow you to:</p>

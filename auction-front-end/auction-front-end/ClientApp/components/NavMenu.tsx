@@ -34,6 +34,12 @@ export class NavMenu extends React.Component<{}, {}> {
                         </li>
                     </ul>
                 </div>
+                <div className='clearfix'></div>
+                <div className='navbar-collapse collapse'>
+                <div className='navbar-header'>
+                    <Link className='navbar-brand' to={'/logout'}>Logout</Link>
+                    </div>
+                </div>
             </div>
         </div>;
     }
