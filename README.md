@@ -5,4 +5,4 @@ Same site available in
 
 # Auction Service Back End
 Only a .NET Core version available
-TODO
+TODO make YAML file here: https://editor.swagger.io/?_ga=2.130705608.610707621.1534749662-206125113.1511180267
