@@ -1,0 +1,75 @@
+swagger: '2.0'
+info:
+  description: >-
+    This is a sample server for the Online Auction services. You can find out more about    
+    Swagger at [http://swagger.io](http://swagger.io) 
+  version: 1.0.0
+  title: Online Auction Bidding API
+  termsOfService: 'http://contoso.com/apiterms/'
+  contact:
+    email: appdev@contoso.com
+host: onlineauction.contoso.com
+basePath: /v1
+tags:
+  - name: bidding
+    description: For making bids on auctions
+    externalDocs:
+      description: Find out more
+      url: 'http://contoso.com/apidocs'
+schemes:
+  - https
+paths:
+  /bidding:
+    post:
+      tags:
+        - bidding
+      summary: Submit a new bid on an online auction
+      description: ''
+      operationId: addBid
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Bid object that user want to submit
+          required: true
+          schema:
+            $ref: '#/definitions/Bid'
+      responses:
+        '200':
+          description: "Bid accepted"
+          schema:
+            $ref: "#/definitions/AcceptedBid"
+        '400':
+          description: "Invalid user or auction ID supplied"
+        '404':
+          description: "User or auction ID not found"
+        '405':
+          description: "Invalid input"
+definitions:
+  Bid:
+    type: "object"
+    properties:
+      userId:
+        type: "integer"
+        format: "int64"
+      auctionId:
+        type: "integer"
+        format: "int64"
+      bidamount:
+        type: "integer"
+        format: "int32"
+      bidUserTimestamp:
+        type: "string"
+        format: "date-time"
+  AcceptedBid:
+    type: "object"
+    properties:
+      bidId:
+        type: "integer"
+        format: "int64"
+      bidAcceptedTimestamp:
+        type: "string"
+        format: "date-time"
