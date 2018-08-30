@@ -22,7 +22,9 @@ You have two days and might need to prioritize what is most important!
 
 * Solution must be able to scale up during auctions and back down during most of the year.
 	* Must be able to handle 100 bids per second. If you are brave, will try with 1000 bids.
-	* In order for us to loadtest the bidding API must accept bids as described here: [API specs](https://github.com/mpeder/onlineauction/blob/master/apidefinition/bidding-api-swagger.yaml)
+	* In order for us to loadtest the bidding API must accept bids as described here: 
+		* [API specs in YAML](https://github.com/mpeder/onlineauction/blob/master/apidefinition/bidding-api-swagger.yaml)
+		* [API specs in Swagger viewer](http://editor.swagger.io?url=https://raw.githubusercontent.com/mpeder/onlineauction/master/apidefinition/bidding-api-swagger.yaml)
 * The solution must be deployable world wide
 * Newest bet must visible to all registered user within 500 ms
 * Engineering excellence
@@ -33,7 +35,6 @@ You have two days and might need to prioritize what is most important!
 	* Automated testing must be applied
 	* Deployment must be possible with the system running
 	* Monitoring of the solution must be enable
-
 
 ## Secondary Requirements
 * UI must render on all types of devices and be useable
