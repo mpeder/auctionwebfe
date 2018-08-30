@@ -19,11 +19,10 @@ At the end of day two we will have a board of technical and non-technical people
 You have two days and might need to prioritize what is most important!
 
 ## First Priority Requirements
-* UI design is not important - we will hire a designer afterwards, but we need to see something working
-* UI must render on all types of devices and be useable
-* Show us your architecture, explain the rationale behind your design decisions to customer and the economic impact, but the actual implementation is more important. 
+
 * Solution must be able to scale up during auctions and back down during most of the year.
 	* Must be able to handle 100 bids per second. If you are brave, will try with 1000 bids.
+	* In order for us to loadtest the bidding API must accept bids as described here: [API specs](https://github.com/mpeder/onlineauction/blob/master/apidefinition/bidding-api-swagger.yaml)
 * The solution must be deployable world wide
 * Newest bet must visible to all registered user within 500 ms
 * Engineering excellence
@@ -34,9 +33,11 @@ You have two days and might need to prioritize what is most important!
 	* Automated testing must be applied
 	* Deployment must be possible with the system running
 	* Monitoring of the solution must be enable
-* In order for us to loadtest the bidding API must accept bids as described here: TODO
+
 
 ## Secondary Requirements
+* UI must render on all types of devices and be useable
+	* UI design is not important - we will hire a designer afterwards, but we need to see something working
 * Describe how disaster recovery will work for the solution
 * Full history of all bets must be available
 * Security
@@ -49,3 +50,5 @@ You have two days and might need to prioritize what is most important!
 At the end of day two, each team must present their solution (~20 mins):
 * Describe and show each step in details.
 * Share you learnings - what did and what didn’t work?
+* Show us your architecture, explain the rationale behind your design decisions to customer and the economic impact, but the actual implementation is more important. 
+* Load test of the bidding API
