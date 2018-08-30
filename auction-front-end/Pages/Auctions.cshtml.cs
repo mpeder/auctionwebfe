@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace auction_front_end.Pages
 {
-    public class ContactModel : PageModel
+    public class AuctionsModel : PageModel
     {
         public string Message { get; set; }
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Below you can see all our past, live and future auctions";
         }
     }
 }

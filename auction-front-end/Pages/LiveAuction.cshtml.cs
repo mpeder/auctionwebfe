@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace auction_front_end.Pages
 {
-    public class AboutModel : PageModel
+    public class LiveAuctionModel : PageModel
     {
         public string Message { get; set; }
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "\"Test Auction\"";
         }
     }
 }

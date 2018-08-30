@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - auction_front_end</title>
+    <title>@ViewData["Title"]</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -18,7 +18,9 @@
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
+        
         <div class="container">
+            
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -26,13 +28,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Index" class="navbar-brand">auction_front_end</a>
+                <div>
+                <!-- <img src="~/images/logo.svg" alt="Logo" width="30" height="30" /> -->
+                <a asp-page="/Index" class="navbar-brand">Brune Christensen Auctions</a>
+                </div>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-page="/Index">Home</a></li>
-                    <li><a asp-page="/About">About</a></li>
-                    <li><a asp-page="/Contact">Contact</a></li>
+                    <li><a asp-page="/Auctions">Auctions</a></li>
+                    <li><a asp-page="/LiveAuction">Live Auction</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +49,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - auction_front_end</p>
+            <p>&copy; 2018 - Brune Christensen Auctions</p>
         </footer>
     </div>
 
