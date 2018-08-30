@@ -1,9 +1,10 @@
-# Auction Web Front End
-Same site available in
-* Angular [link](https://github.com/mpeder/onlineauction/tree/master/angular/auction-front-end)
-* React [link](https://github.com/mpeder/onlineauction/tree/master/react/auction-front-end)
+# Online Auction
+This site is for the open hack "Online Auction".
 
-# Auction Service Back End
-Only a .NET Core version available
-TODO make YAML file here: https://editor.swagger.io/?_ga=2.130705608.610707621.1534749662-206125113.1511180267
-https://app.quicktype.io/
+You can find the case description [here](https://github.com/mpeder/onlineauction/blob/master/docs/case-description.md).
+
+There is a simple starting front end created for you [here](https://github.com/mpeder/onlineauction/tree/master/auction-front-end). It is based on .NET Core and Razor Pages. You dont have to use it :-)
+
+Some additional help for getting started is available [here](https://github.com/mpeder/onlineauction/blob/master/docs/getting-started-coding.md)
+
+
