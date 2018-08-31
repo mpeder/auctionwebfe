@@ -1,28 +1,59 @@
 ﻿@page
 @model LiveAuctionModel
 @{
+    
     ViewData["Title"] = "Live Auction";
 }
+
+@section headscripts {
+<script type="text/javascript">
+    var highestBid = 0;
+    var yourCurrentBid = 0;
+    var timer = window.setInterval(makeBid, 2000)
+    window.onload = updateUI;
+
+
+    function makeBid()
+    {
+        //alert("bid!");
+        highestBid += 100;
+        updateUI();
+    }
+
+    function incrementBid()
+    {
+        yourCurrentBid += 50;
+        if(yourCurrentBid > highestBid)
+        {
+            highestBid = yourCurrentBid;
+        }
+        updateUI();
+    }
+
+    function updateUI()
+    {
+        document.getElementById("higestbidcontent").innerHTML = "Highest bid is: " + highestBid;
+        document.getElementById("yourbid").innerHTML = "Your bid is: " + yourCurrentBid;
+
+        if(yourCurrentBid >= highestBid && yourCurrentBid != 0)
+        {
+            document.getElementById("youwin").innerHTML = "You win!";
+        }
+        else
+        {
+            document.getElementById("youwin").innerHTML = "";
+        }
+    }
+
+</script>
+}
+
 <h2>@ViewData["Title"]</h2>
 <h3>@Model.Message</h3>
  <p>Item for sale: "Some thingy"</p>
- <p><em>YOU ARE THE HIGHEST BIDDER!</em></p>
-<p>Make a higher bid if you want to win</p>;
-<button onClick="incrementCounter();">hej</button>
+ 
+<button onClick="incrementBid();">Increase bid by 50</button>
 
- <h1>Auction - "Old Crap"</h1>
-
-<div id="higestbidcontent">
-    <p>Higest bid: <strong>{this.state.highestBid}</strong></p>
-            <p>Your current bid: <strong>{this.state.yourCurrentBid}</strong></p>
-</div>
-
-@section scripts {
-<script type="text/javascript">
-    function incrementCounter()
-    {
-        
-        alert("You clicked");
-    }
-</script>
-}
+<div id="yourbid"></div>
+<div id="higestbidcontent"></div>
+<div id="youwin"></div>
