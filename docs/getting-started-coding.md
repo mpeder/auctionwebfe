@@ -5,7 +5,7 @@
 ## Data Storage Overview
 ![Dat Storage Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-data-storage.png)
 ## Messaging
-![Messaging Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-compute.png)
+![Messaging Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-messaging.png)
 
 ## REST API
 Quicktype can help you quickly generate code based on your JSON documents: https://app.quicktype.io
