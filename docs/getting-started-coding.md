@@ -3,15 +3,15 @@
 ## Dev Tools
 We suggest you either use VS Code or Visual Studio as your IDE https://visualstudio.microsoft.com/.
 
-##DevOps Platform
+## DevOps Platform
 We suggest you use VSTS go here https://visualstudio.microsoft.com/team-services/ to get started.
 
-## CI & CD
+### CI & CD
 ![CI](https://github.com/mpeder/onlineauction/blob/master/docs/CI.png)
 
 ![CD](https://github.com/mpeder/onlineauction/blob/master/docs/CD.png)
 
-## Application Monitoring
+### Application Monitoring
 ![Monitoring Center](https://github.com/mpeder/onlineauction/blob/master/docs/monitoring.gif)
 
 We suggest you use Application Insights to monitor your application: https://azure.microsoft.com/en-us/services/application-insights/
