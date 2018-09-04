@@ -1,5 +1,10 @@
 # Getting Started with Coding
 
+## Dev Tools
+We suggest you either use VS Code or Visual Studio as your IDE https://visualstudio.microsoft.com/.
+
+##DevOps Platform
+We suggest you use VSTS go here https://visualstudio.microsoft.com/team-services/ to get started.
 ## Compute Overview
 ![Compute Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-compute.png)
 ## Data Storage Overview
