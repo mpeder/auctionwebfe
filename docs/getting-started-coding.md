@@ -5,10 +5,23 @@ We suggest you either use VS Code or Visual Studio as your IDE https://visualstu
 
 ##DevOps Platform
 We suggest you use VSTS go here https://visualstudio.microsoft.com/team-services/ to get started.
+
+### CI & CD
+![CI](https://github.com/mpeder/onlineauction/blob/master/docs/CI.png)
+
+![CD](https://github.com/mpeder/onlineauction/blob/master/docs/CD.png)
+
+##Application Monitoring
+We suggest you use Application Insights: https://azure.microsoft.com/en-us/services/application-insights/
+
+![Monitoring](https://docs.microsoft.com/en-us/azure/application-insights/media/app-insights-detect-triage-diagnose/05-perfmetrics.png)
+
 ## Compute Overview
 ![Compute Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-compute.png)
+
 ## Data Storage Overview
-![Dat Storage Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-data-storage.png)
+![Data Storage Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-data-storage.png)
+
 ## Messaging
 ![Messaging Overview](https://github.com/mpeder/onlineauction/blob/master/docs/azure-messaging.png)
 
