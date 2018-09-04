@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/reactts-old/auction-front-end/auction-front-end/auction-front-end.csproj"
+                "${workspaceFolder}/auction-front-end/auction-front-end/auction-front-end.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

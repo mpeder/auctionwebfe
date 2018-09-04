@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/reactts-old/auction-front-end/auction-front-end/bin/Debug/netcoreapp2.0/auction-front-end.dll",
+            "program": "${workspaceFolder}/auction-front-end/auction-front-end/bin/Debug/netcoreapp2.0/auction-front-end.dll",
             "args": [],
             "cwd": "${workspaceFolder}/reactts-old/auction-front-end/auction-front-end",
             "stopAtEntry": false,
