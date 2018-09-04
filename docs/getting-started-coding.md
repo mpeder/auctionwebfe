@@ -11,8 +11,8 @@ We suggest you use VSTS go here https://visualstudio.microsoft.com/team-services
 
 ![CD](https://github.com/mpeder/onlineauction/blob/master/docs/CD.png)
 
-##Application Monitoring
-![Monitoring Center](https://docs.microsoft.com/en-us/azure/application-insights/media/app-insights-detect-triage-diagnose/monitoring.gif)
+## Application Monitoring
+![Monitoring Center](https://github.com/mpeder/onlineauction/blob/master/docs/monitoring.gif)
 
 We suggest you use Application Insights to monitor your application: https://azure.microsoft.com/en-us/services/application-insights/
 
