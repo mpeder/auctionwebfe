@@ -48,8 +48,7 @@ You have two days and might need to prioritize what is most important!
 	o The solution must be GDPR compliant
 
 ## Evaluation
-At the end of day two, each team must present their solution (~20 mins):
-* Describe and show each step in details.
-* Share you learnings - what did and what didn’t work?
-* Show us your architecture, explain the rationale behind your design decisions to customer and the economic impact, but the actual implementation is more important. 
-* Load test of the bidding API
+At the end of day two, each team must present their solution (30 mins):
+* Part 1 (5 mins): Describe, present and sell our solutions to the customer.
+* Part 2 (4 * 5 mins): Each team member do a speed presentation on something they have learned and want to share.
+* Part 3 (5 mins): Questions and comments from evaluators
