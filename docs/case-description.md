@@ -11,7 +11,7 @@ You decide, and we will mix the teams. So don’t be scared.
  
  
 # The Case
-Brune Christensen Auction is a global auction house and the want to engage Microsoft in a digital transformation journey. As the first step they want to see examples of an online "biting" web site and the underlying infrastructure. If successful, this might replace some of their in-house auctions. If we convince them they will sign a significant Azure deal this quarter!
+Brune Christensen Auction is a global auction house and the want to engage Microsoft in a digital transformation journey. As the first step they want to see examples of an online "bidding" web site and the underlying infrastructure. If successful, this might replace some of their in-house auctions. If we convince them they will sign a significant Azure deal this quarter!
  
 
 At the end of day two we will have a board of technical and non-technical people evaluating your team’s solution and we will pick the winner based on creativity, simplicity, flexibility and cost.
